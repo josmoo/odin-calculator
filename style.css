@@ -1,5 +1,37 @@
+
+
+
+.buttonContainerContainer{
+    display: flex;
+    flex-direction: row;
+}
+
 .numberButtonContainer{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap-reverse;
+}
+
+.numberButtonContainer > button {
+    width: 30%;
+    height: 25%;
+}
+
+.numberButtonContainer > .doubleWideButton {
+    width: 60%;
+}
+
+.nanButtonContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.operationButtonContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.operationButtonContainer > *{
+    width: 50%;
 }
